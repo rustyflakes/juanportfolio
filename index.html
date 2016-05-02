@@ -1,1 +1,358 @@
-Hello World
+<head>
+  <html lang="en">
+  <meta charset="UTF-8">
+  <title>Juan Lizarraga</title>
+  
+<link href='https://fonts.googleapis.com/css?family=Lato:400,200,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+
+<style>
+      html, body{
+  width: 100%;
+  height: 100%;
+  padding:0;
+  margin: 0;
+}
+/*Navigation*/
+.navigation {
+  padding:0;
+  margin:0;
+  background:#fff;
+  position:fixed;
+  top:0;
+  z-index:999;
+  width: 100%;
+  text-align: center;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+
+}
+  li {
+    display: inline-block;
+    padding: 5px 10px;
+  }
+
+  .navigation a{
+      color: black;
+      text-decoration: none;
+      font-family: 'Lato', sans-serif;
+      font-weight: 100;
+
+  }
+  a:hover { 
+background-color: yellow;
+text-decoration: none;
+}   
+
+
+/* Section with Image */
+#slide1{
+  padding-top: 60px;
+  background: url(https://unsplash.it/1900/1080/?random) no-repeat center center fixed;
+  overflow: hidden;  
+  min-height: 750px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.container{
+  padding-top: 10%;
+  text-align: center;
+  animation-duration: 2s;
+  animation-delay: 0;
+}
+
+#slide1 h1{
+  font-family: 'lato', sans-serif;
+  font-weight: 300; 
+  font-size: 60px;
+  color: white;
+
+}
+
+/*content about me*/
+.container-fluid{
+  padding-bottom:0;
+  padding-left:0;
+  padding-right:0;
+  min-height: 512px;
+  line-height: 30px;
+  display:block;
+  animation-duration: 2s;
+  animation-delay: 3s;
+}
+.container-fluid:hover{
+  background-color: yellow;
+}
+
+.image{
+  padding-top:50px;
+  padding-bottom:50px;
+  margin-top:0;
+  Margin-left:auto;
+  margin-right:auto;
+  max-width:500px;
+  width:100%;
+  height:auto;
+  border-radius:40%;
+  display:block;
+}
+
+.col-xs-5{
+display: block;
+}
+
+.text{
+  padding-top: 10%;
+  padding-left:10px;
+  padding-bottom:20px;
+  margin-bottom:0;
+}
+
+/*Portfolio*/
+#portfolio{
+  padding-top:0;
+  border: 0;
+  padding:0;
+  margin: 0;
+  
+}
+#portfolio h1{
+  color: white;
+  padding-top:50px;
+  Margin:0 0 0 0;
+  font-family:"great vibes",san-serif;
+  font-size:80px;
+}
+#portfolio .container-fluid{
+  background:url(https://unsplash.it/1900/1080/?image=1062) no-repeat center center fixed;
+  padding-top:0;
+  height:100%;
+  border-top: groove;
+  border-width: 1px;
+  
+}
+
+.col-xs-3{
+  padding-top: 60px;
+  padding-bottom: 50px;
+  text-align:center;
+}
+.img-port{
+  min-height: -webkit-contain-floats;
+  width: 100%;
+  display: block;
+  border-radius:50%;
+  padding-bottom:10px;
+  animation: spin 10s linear infinite;
+  /*Set our animation play state to paused initially */
+  animation-play-state: paused; 
+}
+.img-port:hover{
+  animation-play-state: running;
+}
+@keyframes spin {
+  100% {transform: rotate(1turn); }
+}
+
+/*Media Section*/
+
+#media{
+  padding-top: 5%;
+  min-height:750px;
+  padding-left: 24px;
+  text-align:left;
+  border-top: groove;
+  border-width: 1px;
+}
+.wrapper{
+  width:80%;
+  margin:auto;
+}
+.wrappito{
+  width:100%;
+}
+#media h1{
+  border-top: groove;
+  border-width: 1px;
+  font-family: 'playfair display', sans-serif;
+  font-size: 60px;
+  margin-bottom:5px;
+  margin-top:0;
+  padding-top:3%;
+  padding-bottom:0;
+  text-align:center;
+  
+}
+#media h2{
+  padding-top:0;
+  margin-top:0;
+  font-family: 'playfair display', sans-serif;
+  font-size: 20px;
+  text-align:center;
+}
+#media p{
+  
+  display: block;
+  font-family: 'lato', san-serif;
+  font-size:21px;
+  font-weight: 100;
+  line-height:30px;
+  margin: auto;
+  padding-bottom:3%;
+  padding-top:20px;
+  text-indent: 30px;
+  width:60%;
+}
+#media a{
+      background: yellow;
+      color: black;
+      font-family: 'Lato', sans-serif;
+      font-size: 20px;
+      font-weight: 300; 
+      margin-left:20%;
+      text-decoration: none;
+    
+      
+}
+#media .resizable{
+  padding:15px 0px 20px 20px ;
+  font-family: 'playfair display', sans-serif;
+}
+
+#media .resizable a{
+      font-family: 'Lato', sans-serif;
+      font-weight: 400; 
+      font-size: 10px;
+}
+footer{
+  border-top: groove;
+  border-width: 1px;
+  font-family: 'Lato', sans-serif;
+  font-weight:100;
+  Height: 10%;
+  text-align:center;
+  
+
+}
+    </style>
+
+
+</head>
+<!-- ///////////////////////////
+
+J u a n  L i z a r r a g a
+    www.juan-two-three.com
+
+/////////////Landing Image /////////////// -->
+
+
+
+<!--NAVIGATION BAR-->
+<nav>
+  <ul class="navigation animated fadeIn">
+    <li data-slide='1'><a href="#slide1" class="smoothScroll">CONTACT INFO</a></li>
+    <li data-slide='2'><a href="#aboutme" class="smoothScroll">ABOUT ME</a></li>
+    <li data-slide='3'><a href="#portfolio" class="smoothScroll">PORTFOLIO</a></li>
+    <li data-slide='4'><a href="#media" class="smoothScroll">MEDIA</a></li>
+  </ul>
+</nav>
+
+<!--FIRST SECTION WITH NAME AND CONTACT INFO-->
+<section>
+<div id="slide1">
+  <div class="container animated fadeInDown">
+      <ul>
+        <h1>Juan Lizarraga</h1>
+        <li><a href="https://www.linkedin.com/in/juanlizarraga" target="blank">Linkedin</a></li> 
+        <li><a href="https://www.freecodecamp.com/rustyflakes" target="blank">Free Code</a></li>
+        <li><a href="https://www.github.com/rustyflakes" target="blank">Git Hub</a></li>
+        <li><a href="https://www.twitter.com/rustyflakes" target="blank">Twitter</a></li>
+      </ul>
+  </div>
+</div>
+</section>
+
+<!--CONTENT SECTION ABOUT JUAN LIZARRAGA-->
+<section>
+<div id="aboutme" class="container-fluid animated fadeIn">
+  <div class="col-md-5"><img class="image" src="https://lh3.googleusercontent.com/-ZbaBMsiT9Is/Vw6ovrL7cmI/AAAAAAAABEI/sjgS59wLP4sMr3Uh3HiQT-n2Du_Vwv5DwCCo/s512-Ic42/Juan%2BLizarraga%2BCo%2BFounder%2B-%2B%2BCEO.jpg" alt="Juan Lizarraga, mexican entrepreneur founder of Koala Roomie">
+  </div>
+  <div class="col-md-7">
+      <div class="text">
+        <h1>About Juan</h1>
+        <p>Bilingual engineer, self-motivated, enthusiastic & trustworthy<strong> professional</strong> with expertise in project management, front end web development, start-ups, UI and UX Design, Business Development & Supply Chain Management. having held many organizational roles in these areas, He uses a holistic approach to problem-solving.</p>
+      </div>
+    </div>
+</div>
+</section>
+
+<!--Portfolio-->
+<section>
+  <div id="portfolio">
+    <div class="container-fluid">
+      <h1 style="text-align: center ">Portfolio</h1>
+      <div class="col-xs-3">
+        <img class="img-port" src="https://lh3.googleusercontent.com/-FdMygq2DmS4/VxtyGBta2VI/AAAAAAAABIw/R1pLcgRTN9EyjJ-Q7uXbFtjo9lIagfDzQCCo/s500/koalaroomie-hover.png" alt="Koala Roomie was founded by Juan Lizarraga in 2015 in New York City">
+      </div>
+      <div class="col-xs-3">
+        <img class="img-port" src="https://lh3.googleusercontent.com/-eDZLngZKY-k/VxtyF359-QI/AAAAAAAABIw/5tgu-aw7fUgzSSIRPdFrjmO6oj690xTmQCCo/s500/coolpix-hover.png" alt="Ilovecoolpix.com a photobooth company founded in 2012 by Juan Lizarraga">
+      </div>
+      <div class="col-xs-3">
+        <img class="img-port" src="https://lh3.googleusercontent.com/-L4VE6RboY4c/Vxt7RsPckGI/AAAAAAAABJA/vRQj0blf2kUUc912Moz6UgT02cqK9MQXACCo/s500/calle13-hover.jpg" alt="Producer of the Concert Calle 13 and Cartel de Santa in Ciudad Juarez with over 5000 attendees">
+      </div>
+      <div class="col-xs-3">
+        <img class="img-port" src="https://lh3.googleusercontent.com/-qf7X05k6h-U/Vxt7RkKI63I/AAAAAAAABI8/K7qqj6XHElAtZXLfXtDD2SWGX56VCiCGQCCo/s500/climbingss-hover.jpg" alt="Founder, designer, web developer, marketing and sales of Climbingsupersale.com a discount online store for quality oudoors sports equipment.">
+      </div>
+    </div>
+  </div>
+</section>
+  
+  <!--Contenido Media Juan Lizarraga-->
+  
+  <div id="media">
+    <div class="wrapper">
+    <h1>15 minutes of Fame. </h1>
+    <h2>Of Juan Lizarraga</h2>
+    <div class="wrappito"><p> The following list is proof of achievements reached by Juan Lizarraga's leadership that were featured in the Press. Data shown in this section will be updated constantly. Last update: April 23 2015</p>
+        <a href="http://diario.mx/Economia/2016-04-13_f5bdfa32/juarenses-unen-a-inquilinos-de-ny" alt="koala roomie in the press el diario de juarez"> Koala Roomie in El Diario de Juarez.</a>
+    <p class="resizable">
+  Juan Bautista Lizarraga an entrepreneur that recently moved to New York City from Cd. Juarez, Mexico said that as soon as he got into this city, he found him self with one of the biggest problems new residents of this great metropolis faces: Housing.<a href="http://diario.mx/Economia/2016-04-13_f5bdfa32/juarenses-unen-a-inquilinos-de-ny" alt="koala roomie in the press el diario de juarez">read more.</a></p>
+        <a href="http://www.lovejuarez.com/ejemplar/febrero-2013-4/#page/14" alt="Cool-Pix Photo Booth in Love Magazine"> Cool-pix Photo Booth in Love Magazine.</a>
+    <br>
+  </div>
+ </div>
+</div>
+  
+  <footer>
+Written and Coded by Juan Lizarraga in New York City  <span class="glyphicon glyphicon-headphones"></span>
+</footer>
+
+
+
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.7.2/jquery.smooth-scroll.min.js '></script>
+
+        <script>
+      //Smooth Scrolling.
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+    </script>
+
